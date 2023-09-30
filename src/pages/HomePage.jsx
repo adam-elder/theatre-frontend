@@ -34,13 +34,13 @@ const HomePage = () => {
           <button onClick={signOut} className="btn btn-primary">Logout</button>
         </div>
         <CharacterTable
-          title="My Characters"
+          title="Characters"
           data={data.data}
           link="/add-character"
         />
         <CastsTable
           classes={"mt-24"}
-          title="My Casts"
+          title="Casts"
           data={castsData.data}
           link="/add-cast"
         />
