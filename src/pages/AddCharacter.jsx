@@ -156,9 +156,9 @@ const AddCharacter = () => {
 								name="enneagramvariant"
 								onChange={(value) => handleSelect("enneagramvariant", value)}
 							>
-								<Option value="so">{wingType?.so}</Option>
-								<Option value="sp">{wingType?.sp}</Option>
-								<Option value="sx">{wingType?.sx}</Option>
+								<Option value="so">Social</Option>
+								<Option value="sp">Self-Preservation</Option>
+								<Option value="sx">Sexual</Option>
 							</Select>
 						</div>
 					</div>
