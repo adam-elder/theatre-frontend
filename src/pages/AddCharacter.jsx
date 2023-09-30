@@ -66,7 +66,7 @@ const AddCharacter = () => {
 		}
 		content = (
 			<div className=" p-4">
-				<h1 className="text-3xl text-center font-bold">New Character</h1>
+				<h1 className="text-3xl text-center font-bold">Create a New Character</h1>
 
 				<form onSubmit={handleSubmit} className="p-2 my-5">
 					<div className="flex flex-col gap-y-4">
@@ -113,7 +113,7 @@ const AddCharacter = () => {
 					</div>
 
 					<div className="flex flex-col gap-y-4 mt-8">
-						<h2 className="font-bold">Enneagram</h2>
+						<h2 className="font-bold">Personality</h2>
 						<div className="w-full">
 							<Select
 								required
