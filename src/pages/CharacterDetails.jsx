@@ -86,10 +86,10 @@ const CharacterDetails = () => {
 						</div>
 					</div>
 					<div className="text-gray-700 mt-5">
-						<span className="font-bold">enneagram title:</span> {enneagramType?.data?.title} <br />
-						<span className="font-bold">core motivation:</span> {enneagramType?.data?.core_motivation} <br />
-						<span className="font-bold">left wing:</span> {enneagramType?.data?.left_wing} <br />
-						<span className="font-bold">right wing:</span> {enneagramType?.data?.right_wing} <br />
+						<span className="font-bold">Type:</span> {enneagramType?.data?.title} <br />
+						<span className="font-bold">Core motivation:</span> {enneagramType?.data?.core_motivation} <br />
+						<span className="font-bold">Core Fear:</span> {enneagramType?.data?.core_fear} <br />
+						<span className="font-bold">Core Desire:</span> {enneagramType?.data?.core_desire} <br />
 						<br />
 						<br />
 					</div>
